@@ -155,7 +155,17 @@ function buildCharts(sample) {
         t: 0,
         b: 0,
       },
-      height: 600
+      height: 600,
+      xaxis: {
+        title: {
+          text: 'OTU IDs'
+        }
+      }
+      // yaxis: {
+      //   title: {
+      //     text: 'Sample Values'
+      //   }
+      // }
     };
 
     // Plots bubble chart
