@@ -1,0 +1,41 @@
+.container {
+    background-color: white !important;
+}
+.jumbotron {
+    background-color: transparent !important;
+    background-image: url('../images/bacteria.jpg') !important;
+    background-repeat: no repeat;
+    background-size: 100%;
+    z-index: 100;
+    opacity: .8;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.well {
+    background-color: white;
+    border: 1px solid black;
+}
+.panel-primary {
+    border-color: black;
+}
+.jumbotron p, h1 {
+    color: white !important;
+}
+#gauge .svg-container {
+    left: -40px;
+    z-index: 0;
+}
+#pie .svg-container{
+    z-index: 50;
+}
+#bubble .svg-container{
+    z-index: 100;
+    top: -200px;
+}
+/* .panel-primary .bubbleContainer {
+    z-index: 100;
+    top: -250px;
+} */
