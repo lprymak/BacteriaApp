@@ -1,4 +1,4 @@
-certifi==2019.3.9
+certifi==2023.7.22
 Click==7.0
 Flask==1.0.3
 Flask-SQLAlchemy==2.4.0
